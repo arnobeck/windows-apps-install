@@ -5,6 +5,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ```powershell
-PowerShell -Command "Set-ExecutionPolicy RemoteSigned -scope Process; iwr -useb https://raw.githubusercontent.com/gerardog/gsudo/master/installgsudo.ps1 | iex"
-powershell.exe -exec bypass -C "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1')) ; ab-install"
+PowerShell -Command "Set-ExecutionPolicy RemoteSigned -scope Process; iwr -useb https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1 | iex"
 ```
