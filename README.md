@@ -11,7 +11,5 @@ PowerShell -Command "Set-ExecutionPolicy RemoteSigned -scope Process; iwr -useb 
 ```
 
 <!--
-```shell
-https://git.io/JkTH9 --> https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1
-```
+https://git.io/JkTH9 == https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1
 -->
