@@ -10,4 +10,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 PowerShell -Command "Set-ExecutionPolicy RemoteSigned -scope Process; iwr -useb https://git.io/JkTH9 | iex"
 ```
 
-# https://git.io/JkTH9 --> https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1
+<!-- https://git.io/JkTH9 --> https://raw.githubusercontent.com/arnobeck/windows-apps-install/master/ab-install.ps1 -->
