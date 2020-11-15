@@ -5,6 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #7zip io-unlocker microsoft-edge microsoft-windows-terminal wsl wsl2 googlechrome firefox vivaldi brave steam epicgameslauncher
 $choco_programs = @(
 7zip,
+networkmanager,
 io-unlocker,
 f.lux,
 sharex,
