@@ -4,22 +4,22 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 #7zip io-unlocker microsoft-edge microsoft-windows-terminal wsl wsl2 googlechrome firefox vivaldi brave steam epicgameslauncher
 $choco_programs = @(
-7zip,
-networkmanager,
-io-unlocker,
-f.lux,
-sharex,
-microsoft-edge,
-microsoft-windows-terminal,
-wsl,
-wsl2,
-cryptomator,
-googlechrome,
-firefox,
-vivaldi,
-brave,
-steam,
-epicgameslauncher,
+"7zip",
+"networkmanager",
+"io-unlocker",
+"f.lux",
+"sharex",
+"microsoft-edge",
+"microsoft-windows-terminal",
+"wsl",
+"wsl2",
+"cryptomator",
+"googlechrome",
+"firefox",
+"vivaldi",
+"brave",
+"steam",
+"epicgameslauncher",
 )
 
 choco install -y ( $choco_programs -join ' ' )
