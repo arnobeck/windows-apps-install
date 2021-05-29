@@ -9,6 +9,8 @@ $choco_programs = @(
 "io-unlocker",
 "f.lux",
 "sharex",
+"bitwarden",
+"bitwarden-cli",
 "microsoft-edge",
 "microsoft-windows-terminal",
 "wsl",
@@ -18,6 +20,7 @@ $choco_programs = @(
 "firefox",
 "vivaldi",
 "brave",
+"discord",
 "steam",
 "epicgameslauncher",
 )
