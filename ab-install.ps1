@@ -22,7 +22,11 @@ $choco_programs = @(
 "brave",
 "discord",
 "steam",
-"epicgameslauncher",
+"epicgameslauncher"
 )
 
-choco install -y ( $choco_programs -join ' ' )
+Foreach ($program in $choco_programs)
+{
+    # choco install -y ( $choco_programs -join ' ' )
+    choco install -y $program
+}
